@@ -13,7 +13,7 @@ case "${unameOut}" in
 esac
 
 arch=`uname -m`
-url="https://github.com/open-policy-agent/conftest/releases/v${version}/conftest_${version}_${os}_${arch}.tar.gz"
+url="https://github.com/open-policy-agent/conftest/releases/downloads/v${version}/conftest_${version}_${os}_${arch}.tar.gz"
 
 if [ "$url" = "" ]
 then
